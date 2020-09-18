@@ -1,5 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
+ /*
+ * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -54,6 +56,9 @@ class App {
         System.out.print("Введите день: ");
         int day = scanner.nextInt();
         System.out.println("В этот день была температура: "+tInYear[month-1][day-1]);
+        System.out.println("Максимальное число: 31");
+        System.out.println("Минимальное  число: -25");
+        
 
     }
 }
